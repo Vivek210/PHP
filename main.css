@@ -1,0 +1,83 @@
+﻿
+/*************************
+*******Typography******
+**************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+
+
+.right {
+  right: 0;
+}
+.padding-right {
+  padding-right: 0;
+}
+
+/*************************
+*******Product Details CSS******
+**************************/
+
+.product-details{
+	overflow:hidden;
+}
+#similar-product {
+  margin-top: 40px;
+}
+
+.product-details {
+  margin-bottom: 40px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.view-product {
+  position: relative;
+}
+
+.view-product img {
+  border: 1px solid #F7F7F0;
+  height: 380px;
+  width: 100%;
+}
+
+.view-product h3 {
+  background: #FE980F;
+  bottom: 0;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 8px 20px;
+  position: absolute;
+  right: 0;
+}
+
+#similar-product .carousel-inner .item{
+	padding-left:0px;
+}
+
+#similar-product .carousel-inner .item img {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.item-control {
+  position: absolute;
+  top: 35%;
+}
+.item-control i {
+  background: #FE980F;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.item-control i:hover{
+	background:#ccccc6;
+}
+
+
+
+
